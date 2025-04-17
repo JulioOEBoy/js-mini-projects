@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }
 
-  // Torna as funções acessíveis ao HTML
   window.addTask = addTask;
   window.toggleTask = toggleTask;
   window.removeTask = removeTask;
